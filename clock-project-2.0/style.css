@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Doto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(119, 72, 34);
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 200px;
+  width: 650px;
+  background-color: black;
+  border: 15px solid burlywood;
+  border-radius: 50px;
+}
+
+.time div {
+  font-size: 80px;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 30px rgb(216, 0, 0);
+}
